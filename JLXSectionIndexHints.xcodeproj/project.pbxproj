@@ -21,6 +21,8 @@
 		168E45951F948E91006285BA /* ContactData.m in Sources */ = {isa = PBXBuildFile; fileRef = 168E45941F948E91006285BA /* ContactData.m */; };
 		168E45981F948EF4006285BA /* ContactIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 168E45971F948EF4006285BA /* ContactIndex.m */; };
 		168E459B1F949020006285BA /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 168E459A1F949020006285BA /* ChineseToPinyin.m */; };
+		168E459D1F94ABFA006285BA /* 29B025749031BB7EAAE06009ADD9B267.png in Resources */ = {isa = PBXBuildFile; fileRef = 168E459C1F94ABFA006285BA /* 29B025749031BB7EAAE06009ADD9B267.png */; };
+		168E459F1F94AC00006285BA /* 750C132F7317FE7DC7DBBE5E8CFF5460.png in Resources */ = {isa = PBXBuildFile; fileRef = 168E459E1F94AC00006285BA /* 750C132F7317FE7DC7DBBE5E8CFF5460.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		168E45971F948EF4006285BA /* ContactIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactIndex.m; sourceTree = "<group>"; };
 		168E45991F949020006285BA /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
 		168E459A1F949020006285BA /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
+		168E459C1F94ABFA006285BA /* 29B025749031BB7EAAE06009ADD9B267.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29B025749031BB7EAAE06009ADD9B267.png; sourceTree = "<group>"; };
+		168E459E1F94AC00006285BA /* 750C132F7317FE7DC7DBBE5E8CFF5460.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 750C132F7317FE7DC7DBBE5E8CFF5460.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,8 @@
 		168E45561F948B28006285BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				168E459E1F94AC00006285BA /* 750C132F7317FE7DC7DBBE5E8CFF5460.png */,
+				168E459C1F94ABFA006285BA /* 29B025749031BB7EAAE06009ADD9B267.png */,
 				168E45571F948B28006285BA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -285,6 +291,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				168E459D1F94ABFA006285BA /* 29B025749031BB7EAAE06009ADD9B267.png in Resources */,
+				168E459F1F94AC00006285BA /* 750C132F7317FE7DC7DBBE5E8CFF5460.png in Resources */,
 				168E45661F948B29006285BA /* LaunchScreen.storyboard in Resources */,
 				168E45631F948B29006285BA /* Assets.xcassets in Resources */,
 				168E45611F948B29006285BA /* Main.storyboard in Resources */,
@@ -552,6 +560,7 @@
 				168E45821F948B2A006285BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		168E45831F948B2A006285BA /* Build configuration list for PBXNativeTarget "JLXSectionIndexHintsTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +569,7 @@
 				168E45851F948B2A006285BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		168E45861F948B2A006285BA /* Build configuration list for PBXNativeTarget "JLXSectionIndexHintsUITests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +578,7 @@
 				168E45881F948B2A006285BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
