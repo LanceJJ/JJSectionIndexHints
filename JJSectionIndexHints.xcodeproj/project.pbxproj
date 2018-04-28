@@ -20,6 +20,7 @@
 		7E146ECE2094181E00886042 /* JJContactIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E146ECD2094181E00886042 /* JJContactIndex.m */; };
 		7E146ED12094185400886042 /* JJContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E146ED02094185400886042 /* JJContactModel.m */; };
 		7E146ED42094189100886042 /* JJContactData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E146ED32094189100886042 /* JJContactData.m */; };
+		7E146F66209420E000886042 /* ezgif.com-optimize.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7E146F65209420E000886042 /* ezgif.com-optimize.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		7E146ED02094185400886042 /* JJContactModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJContactModel.m; sourceTree = "<group>"; };
 		7E146ED22094189100886042 /* JJContactData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJContactData.h; sourceTree = "<group>"; };
 		7E146ED32094189100886042 /* JJContactData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJContactData.m; sourceTree = "<group>"; };
+		7E146F65209420E000886042 /* ezgif.com-optimize.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-optimize.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		7E146E922094172D00886042 /* JJSectionIndexHints */ = {
 			isa = PBXGroup;
 			children = (
+				7E146F64209420C100886042 /* Image */,
 				7E146EC52094176A00886042 /* JJSectionIndexHints */,
 				7E146E932094172D00886042 /* AppDelegate.h */,
 				7E146E942094172D00886042 /* AppDelegate.m */,
@@ -163,6 +166,14 @@
 				7E146EC72094179C00886042 /* UITableView+JJSectionIndexHints.m */,
 			);
 			path = JJSectionIndexHints;
+			sourceTree = "<group>";
+		};
+		7E146F64209420C100886042 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				7E146F65209420E000886042 /* ezgif.com-optimize.gif */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +285,7 @@
 			files = (
 				7E146EA02094172D00886042 /* LaunchScreen.storyboard in Resources */,
 				7E146E9D2094172D00886042 /* Assets.xcassets in Resources */,
+				7E146F66209420E000886042 /* ezgif.com-optimize.gif in Resources */,
 				7E146E9B2094172D00886042 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
