@@ -1,4 +1,4 @@
-# JLXSectionIndexHints
+# JJSectionIndexHints
 
 
 ## 自定义通讯录右侧字母索引
@@ -10,7 +10,7 @@
 
 ## 使用方法
 
-* 导入JLXSectionIndexHints文件，tableview添加分类方法即可
+* 导入JJSectionIndexHints文件，tableview添加分类方法即可
 
 ```objc
     //添加索引显示
@@ -25,5 +25,5 @@
 
 ## 效果图
 
-![](https://github.com/lingxinjiang/JLXSectionIndexHints/raw/master/JLXSectionIndexHints/29B025749031BB7EAAE06009ADD9B267.png)
-![](https://github.com/lingxinjiang/JLXSectionIndexHints/raw/master/JLXSectionIndexHints/750C132F7317FE7DC7DBBE5E8CFF5460.png)
+![](https://github.com/lingxinjiang/JJSectionIndexHints/raw/master/JJSectionIndexHints/29B025749031BB7EAAE06009ADD9B267.png)
+![](https://github.com/lingxinjiang/JJSectionIndexHints/raw/master/JJSectionIndexHints/750C132F7317FE7DC7DBBE5E8CFF5460.png)
