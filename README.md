@@ -25,5 +25,5 @@
 
 ## 效果图
 
-![](https://github.com/lingxinjiang/JJSectionIndexHints/raw/master/JJSectionIndexHints/29B025749031BB7EAAE06009ADD9B267.png)
-![](https://github.com/lingxinjiang/JJSectionIndexHints/raw/master/JJSectionIndexHints/750C132F7317FE7DC7DBBE5E8CFF5460.png)
+![](https://github.com/LanceJJ/JJSectionIndexHints/raw/master/JJSectionIndexHints/29B025749031BB7EAAE06009ADD9B267.png)
+![](https://github.com/LanceJJ/JJSectionIndexHints/raw/master/JJSectionIndexHints/750C132F7317FE7DC7DBBE5E8CFF5460.png)
