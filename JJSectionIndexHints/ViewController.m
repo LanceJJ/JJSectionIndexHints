@@ -98,11 +98,11 @@
     }
     return nil;
 }
-#pragma mark --返回右边标题--
-- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
-{
-    return _contactData.contactIndex.allKeyArray;
-}
+//#pragma mark --返回右边标题--
+//- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+//{
+//    return _contactData.contactIndex.allKeyArray;
+//}
 
 
 

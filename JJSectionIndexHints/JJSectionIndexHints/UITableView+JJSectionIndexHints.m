@@ -19,7 +19,6 @@
 
 @implementation UITableView (JJSectionIndexHints)
 
-
 /**
  Description 添加索引显示
  
@@ -37,30 +36,35 @@
     
     self.allKeyArray = allKeyArray;
     
-    //计算索引的相对位置
-    CGFloat contentTop = self.contentInset.top > 0 ? self.contentInset.top : 0;
-    CGFloat groundViewH = self.frame.size.height - contentTop;
     //右侧索引宽度（可重新设置）
-    CGFloat groundViewW = 20;
-    CGFloat groundViewY = self.frame.origin.y + contentTop;
+    CGFloat groundViewW = 30;
     CGFloat indexViewW = groundViewW;
     //直接添加右侧索引的view距离底层view的y值，可改变索引高度
-    CGFloat indexViewY = 20;
-    CGFloat indexViewH = groundViewH - indexViewY * 2;
-    
-    //右侧索引底层view（高度与tableview相同）
-    UIView *groundView = [[UIView alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width - indexViewW, groundViewY, indexViewW, groundViewH)];
-    
-    groundView.backgroundColor = [UIColor redColor];
-    
+    CGFloat indexViewH = allKeyArray.count * 14;
+
     //用于直接添加右侧索引的view（高度可自定义）
-    UIView *indexView = [[UIView alloc] initWithFrame:CGRectMake(0, indexViewY, indexViewW, indexViewH)];
+    UIView *indexView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, indexViewW, indexViewH)];
     
-    indexView.backgroundColor = [UIColor greenColor];
+    indexView.backgroundColor = [UIColor redColor];
     
-    [self.superview addSubview:groundView];
+    [self.superview addSubview:indexView];
     
-    [groundView addSubview:indexView];
+    indexView.translatesAutoresizingMaskIntoConstraints = NO;
+
+    NSLayoutConstraint *indexHeight = [NSLayoutConstraint constraintWithItem:indexView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeHeight multiplier:1.0 constant:indexViewH];
+
+    [indexView addConstraint:indexHeight];
+    
+    NSLayoutConstraint *indexWeight = [NSLayoutConstraint constraintWithItem:indexView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeWidth multiplier:1.0 constant:indexViewW];
+
+    [indexView addConstraint:indexWeight];
+
+    NSLayoutConstraint *indexTop = [NSLayoutConstraint constraintWithItem:indexView attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self.superview attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0];
+    [self.superview addConstraint:indexTop];
+    
+    NSLayoutConstraint *indexRight = [NSLayoutConstraint constraintWithItem:indexView attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self.superview attribute:NSLayoutAttributeRight multiplier:1.0 constant:0];
+    [self.superview addConstraint:indexRight];
+        
     
     NSInteger count = allKeyArray.count;
     
@@ -207,3 +211,4 @@
 
 
 @end
+
